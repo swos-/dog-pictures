@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-3">
+        <ul class="list-group list-group-flush">
+            <li *ngFor="let link of links; index as i;" class="list-group-item"><a class="dog-link" [href]="link.url">{{ link.name }}</a>
+            </li>
+        </ul>
+    </div>
+</div>
